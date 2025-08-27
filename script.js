@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🌍 Timezone Information App - Starting...');
     
     // Check if API key needs to be configured
-    if (CONFIG.API_KEY === 'YOUR_GEOAPIFY_API_KEY_HERE') {
-        console.warn('⚠️ Please replace YOUR_GEOAPIFY_API_KEY_HERE with your actual Geoapify API key.');
+    if (CONFIG.API_KEY === '38d7a9f23bfc4a99b55de7395c4f****') {
+        console.warn('https://api.geoapify.com/v1/geocode');
         console.info('📋 Get your free API key from: https://www.geoapify.com/get-started-with-maps-api/');
         console.info('🔄 Using fallback timezone detection for current location...');
     }
